@@ -1,0 +1,45 @@
+
+COMPANY EMPLOYEE DATASET CLEANING SUMMARY
+
+1. Loaded the messy company employee CSV using Pandas.
+
+2. Inspected the dataset using:
+   - head()
+   - shape
+   - columns
+   - dtypes
+   - info()
+   - describe()
+
+3. Identified missing values using isnull().
+
+4. Identified duplicate records using duplicated().
+
+5. Standardized column names by:
+   - Removing extra spaces
+   - Converting names to lowercase
+   - Replacing spaces with underscores
+
+6. Removed unnecessary whitespace from text values.
+
+7. Replaced common missing-value indicators such as
+   NA, N/A, -, ?, and None with Pandas missing values.
+
+8. Converted numerical columns to appropriate numeric data types.
+
+9. Converted joining_date to datetime format.
+
+10. Removed duplicate records using drop_duplicates().
+
+11. Filled missing numerical values using median imputation.
+
+12. Filled missing categorical values using mode imputation.
+
+13. Used forward fill and backward fill for missing date values.
+
+14. Removed completely empty columns where necessary.
+
+15. Verified the dataset after cleaning.
+
+16. Exported the final cleaned dataset as:
+   Cleaned_Company_Employee_Dataset.csv
